@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1155px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.header{
+    padding-top: 66px;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+}
+
+.nav__list li{
+    margin-right: 50px;
+}
+
+.nav__list li:list-child{
+    margin-right: 0;
+}
+
+.nav__list a{
+    font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 10px;
+}
+
+h1{
+    font-size: 48px;
+line-height: 59px;
+max-width: 500px;
+
+}
+
+.wrapper__text{
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 500px;
+    margin: 40px 0 50px;
+}
+
+.btn{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500px;
+font-size: 30px;
+line-height: 100px;
+
+color: #000000;
+background: rgb(223, 91, 91);
+border: none;
+
+}
+
+.about-me{
+    background: #B9B9B9;
+    color:#fff;
+    padding: 80px 0 100px;
+    text-align: center;
+}
+
+.section_title{
+    font-size: 72px;
+line-height: 88px;
+}
+
+.about_text{
+    font-size: 36px;
+line-height: 44px;
+margin: 0 auto;
+margin-top: 50px;
+max-width: 500px;
+}
+
+.skills{
+    padding: 80px 0 120px;
+}
+
+.skills_box{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_card{
+    text-align: center;
+    max-width: 320px;
+}
+
+.card_title{
+    font-size: 36px;
+line-height: 44px;
+margin: 35px 0;
+}
+
+.card_text{
+    font-size: 36px;
+line-height: 44px;
+}
+
+h2{
+    text-align: center;
+}
